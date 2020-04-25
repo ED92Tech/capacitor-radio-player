@@ -1,5 +1,5 @@
 
   <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-      package="be.chevalierv.radioplayer.capacitorradioplayer">
+      package="org.ed92.capradioplayer.capacitorradioplayer">
   </manifest>
   

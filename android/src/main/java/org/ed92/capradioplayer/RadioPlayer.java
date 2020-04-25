@@ -1,4 +1,4 @@
-package be.chevalierv.radioplayer;
+package org.ed92.capradioplayer;
 
 import com.getcapacitor.JSObject;
 import com.getcapacitor.NativePlugin;

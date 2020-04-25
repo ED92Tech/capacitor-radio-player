@@ -10,7 +10,7 @@
     "watch": "tsc --watch",
     "prepublishOnly": "npm run build"
   },
-  "author": "",
+  "author": "ED92",
   "license": "MIT",
   "dependencies": {
     "@capacitor/core": "latest"
@@ -42,9 +42,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/chevalierv/capacitor-radio-player"
+    "url": "https://github.com/ED92Tech/capacitor-radio-player"
   },
   "bugs": {
-    "url": "https://github.com/chevalierv/capacitor-radio-player/issues"
+    "url": "https://github.com/ED92Tech/capacitor-radio-player/issues"
   }
 }
