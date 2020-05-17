@@ -14,4 +14,11 @@ public class RadioPlayer: CAPPlugin {
             "value": value
         ])
     }
+    
+    @objc func echo(_ call: CAPPluginCall) {
+        let value = call.getString("value") ?? ""
+        call.success([
+            "value": value
+        ])
+    }
 }

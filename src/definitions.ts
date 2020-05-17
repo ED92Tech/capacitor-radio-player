@@ -5,5 +5,7 @@ declare module "@capacitor/core" {
 }
 
 export interface RadioPlayerPlugin {
-  echo(options: { value: string }): Promise<{value: string}>;
+  // Les types passés en argument & et les types de retur ne sont pas définitifs
+  updateMetadata(metadata: {}): Promise<{value: string}>;// Fonction qui recoit le titre et l'album
+  tooglePlayPause(): Promise<{value: string}>;// Fonction qui vas inverser le statut actuel
 }

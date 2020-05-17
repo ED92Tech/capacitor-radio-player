@@ -15,6 +15,16 @@
 		50ADFFA42020D75100D50D53 /* Capacitor.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50ADFFA52020D75100D50D53 /* Capacitor.framework */; };
 		50ADFFA82020EE4F00D50D53 /* Plugin.m in Sources */ = {isa = PBXBuildFile; fileRef = 50ADFFA72020EE4F00D50D53 /* Plugin.m */; };
 		50E1A94820377CB70090CE1A /* Plugin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50E1A94720377CB70090CE1A /* Plugin.swift */; };
+		A7608E2524718C0400810C52 /* ConfigAsset.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7608E0F24718C0400810C52 /* ConfigAsset.swift */; };
+		A7608E2624718C0400810C52 /* ConfigCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7608E1024718C0400810C52 /* ConfigCommand.swift */; };
+		A7608E2724718C0400810C52 /* ConfigCommandCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7608E1124718C0400810C52 /* ConfigCommandCollection.swift */; };
+		A7608E2824718C0400810C52 /* ConfigPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7608E1224718C0400810C52 /* ConfigPath.swift */; };
+		A7608E2924718C0400810C52 /* ConfigModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7608E1324718C0400810C52 /* ConfigModel.swift */; };
+		A7608E2A24718C0400810C52 /* NowPlayableMetadata.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7608E1524718C0400810C52 /* NowPlayableMetadata.swift */; };
+		A7608E2B24718C0400810C52 /* NowPlayable.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7608E1624718C0400810C52 /* NowPlayable.swift */; };
+		A7608E2C24718C0400810C52 /* NowPlayableError.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7608E1724718C0400810C52 /* NowPlayableError.swift */; };
+		A7608E2D24718C0400810C52 /* NowPlayableCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7608E1824718C0400810C52 /* NowPlayableCommand.swift */; };
+		A7608E3324718C0400810C52 /* AssetPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7608E2024718C0400810C52 /* AssetPlayer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,6 +51,16 @@
 		5E23F77F099397094342571A /* Pods-Plugin.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Plugin.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Plugin/Pods-Plugin.debug.xcconfig"; sourceTree = "<group>"; };
 		91781294A431A2A7CC6EB714 /* Pods-Plugin.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Plugin.release.xcconfig"; path = "Pods/Target Support Files/Pods-Plugin/Pods-Plugin.release.xcconfig"; sourceTree = "<group>"; };
 		96ED1B6440D6672E406C8D19 /* Pods-PluginTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PluginTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PluginTests/Pods-PluginTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A7608E0F24718C0400810C52 /* ConfigAsset.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfigAsset.swift; sourceTree = "<group>"; };
+		A7608E1024718C0400810C52 /* ConfigCommand.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfigCommand.swift; sourceTree = "<group>"; };
+		A7608E1124718C0400810C52 /* ConfigCommandCollection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfigCommandCollection.swift; sourceTree = "<group>"; };
+		A7608E1224718C0400810C52 /* ConfigPath.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfigPath.swift; sourceTree = "<group>"; };
+		A7608E1324718C0400810C52 /* ConfigModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfigModel.swift; sourceTree = "<group>"; };
+		A7608E1524718C0400810C52 /* NowPlayableMetadata.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NowPlayableMetadata.swift; sourceTree = "<group>"; };
+		A7608E1624718C0400810C52 /* NowPlayable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NowPlayable.swift; sourceTree = "<group>"; };
+		A7608E1724718C0400810C52 /* NowPlayableError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NowPlayableError.swift; sourceTree = "<group>"; };
+		A7608E1824718C0400810C52 /* NowPlayableCommand.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NowPlayableCommand.swift; sourceTree = "<group>"; };
+		A7608E2024718C0400810C52 /* AssetPlayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AssetPlayer.swift; sourceTree = "<group>"; };
 		F65BB2953ECE002E1EF3E424 /* Pods-PluginTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PluginTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PluginTests/Pods-PluginTests.release.xcconfig"; sourceTree = "<group>"; };
 		F6753A823D3815DB436415E3 /* Pods_PluginTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PluginTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -70,6 +90,7 @@
 		50ADFF7E201F53D600D50D53 = {
 			isa = PBXGroup;
 			children = (
+				A7608E0D24718C0400810C52 /* Shared */,
 				50ADFF8A201F53D600D50D53 /* Plugin */,
 				50ADFF95201F53D600D50D53 /* PluginTests */,
 				50ADFF89201F53D600D50D53 /* Products */,
@@ -116,6 +137,47 @@
 				F65BB2953ECE002E1EF3E424 /* Pods-PluginTests.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		A7608E0D24718C0400810C52 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				A7608E0E24718C0400810C52 /* Configuration */,
+				A7608E1424718C0400810C52 /* NowPlayable */,
+				A7608E1F24718C0400810C52 /* Player */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		A7608E0E24718C0400810C52 /* Configuration */ = {
+			isa = PBXGroup;
+			children = (
+				A7608E0F24718C0400810C52 /* ConfigAsset.swift */,
+				A7608E1024718C0400810C52 /* ConfigCommand.swift */,
+				A7608E1124718C0400810C52 /* ConfigCommandCollection.swift */,
+				A7608E1224718C0400810C52 /* ConfigPath.swift */,
+				A7608E1324718C0400810C52 /* ConfigModel.swift */,
+			);
+			path = Configuration;
+			sourceTree = "<group>";
+		};
+		A7608E1424718C0400810C52 /* NowPlayable */ = {
+			isa = PBXGroup;
+			children = (
+				A7608E1524718C0400810C52 /* NowPlayableMetadata.swift */,
+				A7608E1624718C0400810C52 /* NowPlayable.swift */,
+				A7608E1724718C0400810C52 /* NowPlayableError.swift */,
+				A7608E1824718C0400810C52 /* NowPlayableCommand.swift */,
+			);
+			path = NowPlayable;
+			sourceTree = "<group>";
+		};
+		A7608E1F24718C0400810C52 /* Player */ = {
+			isa = PBXGroup;
+			children = (
+				A7608E2024718C0400810C52 /* AssetPlayer.swift */,
+			);
+			path = Player;
 			sourceTree = "<group>";
 		};
 		A797B9EFA3DCEFEA1FBB66A9 /* Frameworks */ = {
@@ -302,8 +364,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A7608E2D24718C0400810C52 /* NowPlayableCommand.swift in Sources */,
+				A7608E2824718C0400810C52 /* ConfigPath.swift in Sources */,
+				A7608E2524718C0400810C52 /* ConfigAsset.swift in Sources */,
 				50E1A94820377CB70090CE1A /* Plugin.swift in Sources */,
+				A7608E2B24718C0400810C52 /* NowPlayable.swift in Sources */,
+				A7608E3324718C0400810C52 /* AssetPlayer.swift in Sources */,
+				A7608E2A24718C0400810C52 /* NowPlayableMetadata.swift in Sources */,
+				A7608E2924718C0400810C52 /* ConfigModel.swift in Sources */,
+				A7608E2724718C0400810C52 /* ConfigCommandCollection.swift in Sources */,
+				A7608E2C24718C0400810C52 /* NowPlayableError.swift in Sources */,
 				50ADFFA82020EE4F00D50D53 /* Plugin.m in Sources */,
+				A7608E2624718C0400810C52 /* ConfigCommand.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
